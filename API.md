@@ -8,6 +8,7 @@ Other developers can easily support their favorite media clients. You'll need to
 
 ## Communication
 There are two different messages transferred to NextUp:
+
 |               name               |        description        |
 |----------------------------------|---------------------------|
 `se.nosskirneh.nextup/registerApp` | Registers the app to be able to send data to NextUp |
@@ -64,12 +65,14 @@ Along with each message, some data is also sent.
 
 ### Register app message
 The data is built with a `NSDictionary` in the following way:
+
 |   key    |    type    |         description         |
 |----------|------------|-----------------------------|
 | `app`    | `NSString` | The app's bundle identifier |
 
 ### Next track message
 The data is built with a `NSDictionary` in the following way:
+
 |    key     |   type         |          description         |
 |------------|----------------|------------------------------|
 | `app`      | `NSString`     | The app's bundle identifier. |
@@ -77,6 +80,7 @@ The data is built with a `NSDictionary` in the following way:
 
 
 The metadata dictionary is built in the following way:
+
 |    key     |   type     |          description          |
 |------------|------------|-------------------------------|
 | `title`    | `NSString` | The text on the first label.  |
