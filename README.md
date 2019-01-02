@@ -12,4 +12,4 @@ Also please make sure the bug isn't caused by another tweak (disable all other j
 
 
 ## API
-See API.md
+See [API.md](https://github.com/Nosskirneh/NextUp-Public/blob/master/API.md).
