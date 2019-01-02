@@ -5,6 +5,12 @@ Prerequisites: [RocketBootstrap](https://github.com/rpetrich/RocketBootstrap/tre
 
 Other developers can easily support their favorite media clients. You'll need to find the class that manages the queue and hook methods that are called when the next track is changed. Once you have that, you'll need to find the class that fetches images and using that fetch the next track's image. This method is most usually a callback method that returns an `UIImage`.
 
+## The Makefile
+RocketBootstrap requires the Makefile to specify the rocketbootstrap library and the AppSupport framework.
+```
+TweakName_LIBRARIES = rocketbootstrap
+TweakName_PRIVATE_FRAMEWORKS = AppSupport
+```
 
 ## Communication
 There are two different messages transferred to NextUp:
