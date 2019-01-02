@@ -1,5 +1,6 @@
 # NextUp-Public
-Bug report repo for NextUp
+
+## Issues
 
 Please include the following when reporting a bug:
 
@@ -8,3 +9,7 @@ Please include the following when reporting a bug:
 3. How to reproduce (if not obvious steps).
 
 Also please make sure the bug isn't caused by another tweak (disable all other just to make sure).
+
+
+## API
+See API.md
