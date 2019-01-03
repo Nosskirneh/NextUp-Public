@@ -82,10 +82,10 @@ The data is built with a `NSDictionary` in the following way:
 |    key     |   type         |          description         |
 |------------|----------------|------------------------------|
 | `app`      | `NSString`     | The app's bundle identifier. |
-| `metadata` | `NSDictionary` | The text on the first label. |
+| `metadata` | `NSDictionary` | Info about the next track.   |
 
 
-The metadata dictionary is built in the following way:
+The `metadata` dictionary is built in the following way:
 
 |    key     |   type     |          description          |
 |------------|------------|-------------------------------|
