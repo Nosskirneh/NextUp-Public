@@ -15,6 +15,10 @@ It has support for a lot of media apps (the ones currently supported: Music, TID
     <img src="http://moreinfo.thebigboss.org/moreinfo/nextup5.jpg" width="200">
 </div>
 
+## Translate NextUp
+
+It was a requested feature to have translations of the "Next Up" label. Refer to the [English translation]([API.md](https://github.com/Nosskirneh/NextUp-Public/blob/master/translations/en.lproj)) within this repo. Copy its folder, change its name to your [country's code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) (see column 639-1) and translate the `Localizable.strings` file.
+
 ## Issues
 
 Please include the following when reporting a bug:
