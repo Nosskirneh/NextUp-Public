@@ -17,7 +17,7 @@ It has support for a lot of media apps (the ones currently supported: Music, TID
 
 ## Translate NextUp
 
-It was a requested feature to have translations of the "Next Up" label. Refer to the [English translation]([API.md](https://github.com/Nosskirneh/NextUp-Public/blob/master/translations/en.lproj)) within this repo. Copy its folder, change its name to your [country's code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) (see column 639-1) and translate the `Localizable.strings` file.
+It was a requested feature to have translations of the "Next Up" label. Refer to the [English translation]([API.md](https://github.com/Nosskirneh/NextUp-Public/blob/master/translations/en.lproj)) within this repo. Copy its folder, change its name to your [country's code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) (see column 639-1) and translate the `Localizable.strings` file. Zip it and send me the zip somehow (email visible from Cydia for example) or open a pull request to this repo.
 
 ## Issues
 
