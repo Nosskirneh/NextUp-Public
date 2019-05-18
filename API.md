@@ -3,6 +3,8 @@
 
 Prerequisites: [RocketBootstrap](https://github.com/rpetrich/RocketBootstrap/tree/master) and [AppSupport](http://developer.limneos.net/?ios=11.0&framework=AppSupport.framework&header=CPDistributedMessagingCenter.h) headers.
 
+If you’re running iOS 12, make sure to have RocketBootstrap version 1.0.7~beta1 or higher from [Ryan Petrich’s repo](http://rpetri.ch/repo). It will not work with the version currently available on BigBoss!
+
 Other developers can easily support their favorite media clients. You'll need to find the class that manages the queue and hook methods that are called when the next track is changed. Once you have that, you'll need to find the class that fetches images and using that fetch the next track's image. This method is most usually a callback method that returns an `UIImage`.
 
 ## The Makefile
@@ -91,8 +93,8 @@ The `metadata` dictionary is built in the following way:
 |------------|------------|-------------------------------|
 | `title`    | `NSString` | The text on the first label.  |
 | `subtitle` | `NSString` | The text on the second label. |
-| `skipable` | `NSNumber` | If the next track is skipable or not (optional and defaults to `@(YES)`. |
-| `artwork`  | `NSData`   | The data of the `UIImage` (use `UIImagePNGRepresentation`). The artwork image should be 60x60 (note that some apps handles this different with some scale parameter for + devices). |
+| `skipable` | `NSNumber` | If the next track is skipable or not (optional and defaults to `@YES`). |
+| `artwork`  | `NSData`   | The data of the `UIImage` (use `UIImagePNGRepresentation`). The artwork image should be 60x60 (note that some apps handles this differently with some scale parameter for iPhone + devices). |
 
 If there is no next track available (end of queue for example), simply send a next track message without a metadata dictionary.
 
