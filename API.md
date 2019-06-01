@@ -5,7 +5,7 @@ Prerequisites: [RocketBootstrap](https://github.com/rpetrich/RocketBootstrap/tre
 
 If you’re running iOS 12, make sure to have RocketBootstrap version 1.0.7~beta1 or higher from [Ryan Petrich’s repo](http://rpetri.ch/repo). It will not work with the version currently available on BigBoss!
 
-Other developers can easily support their favorite media clients. You'll need to find the class that manages the queue and hook methods that are called when the next track is changed. Once you have that, you'll need to find the class that fetches images and using that fetch the next track's image. This method is most usually a callback method that returns an `UIImage`.
+Other developers can easily support their favorite media clients. You'll need to find the class that manages the queue and hook methods that are called when the next track is changed. Once you have that, you'll need to find the class that fetches images and fetch the next track's image using it. This method is most usually a callback method that returns an `UIImage`.
 
 ## The Makefile
 RocketBootstrap requires the Makefile to specify the rocketbootstrap library and the AppSupport framework.
@@ -105,7 +105,7 @@ NextUp will send notifications (using `CFNotificationCenter`) in two scenarios:
 1. When SpringBoard changed the now playing app to the client you support.
 2. When the skip button was pressed.
 
-Refer to the code down below. A tip: either find a `sharedInstance` to the queue manager for the skipNext and manualUpdate methods to use or hook the queue manager's init method and subscribe to a custom `NSNotification` event.
+Refer to the code down below. A tip: either find a `sharedInstance` to the queue manager for the `skipNext` and `manualUpdate` methods down below to use or hook the queue manager's init method and subscribe to a custom `NSNotification` event.
 
 ```
 #define notificationArguments CFNotificationCenterRef center, void *observer, CFStringRef name, const void *object, CFDictionaryRef userInfo
