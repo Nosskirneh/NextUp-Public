@@ -32,6 +32,8 @@ When the callback with the `UIImage` fires, refer to the code below to communica
 #define NEXTUP_IDENTIFIER @"se.nosskirneh.nextup"
 #define kApp @"app"
 #define kMetadata @"metadata"
+#define kRegisterApp @"se.nosskirneh.nextup/registerApp"
+#define kNextTrackMessage @"se.nosskirneh.nextup/nextTrack"
 
 
 void sendNextTrackMetadata(NSDictionary *metadata) {
