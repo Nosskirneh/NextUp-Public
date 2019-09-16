@@ -1,12 +1,12 @@
 # NextUp-Public
 
-[NextUp](http://cydia.saurik.com/package/se.nosskirneh.nextup/) is a nice little enhancement that allows you to glimpse ahead of the current track and even change it if you don't like the what the future had in store for you.
+[NextUp](https://henrikssonbrothers.com/cydia/repo/depictions/?p=se.nosskirneh.nextup2) is a nice little enhancement that allows you to glimpse ahead of the current track and even change it if you don't like the what the future had in store for you.
 
 Don’t like a song? Skip it before it has even started playing.
 
 It’s especially useful for those of you using free accounts with limited number of skips.
 
-It has support for a lot of media apps (the ones currently supported: Music, TIDAL, Spotify, Anghami, Deezer, Podcasts, SoundCloud, Google Music, YouTube Music).
+It has support for a lot of media apps (the ones currently supported: VOX, Musi, Music, TIDAL, Spotify, Deezer, Napster, Anghami, JioSaavn, Podcasts, SoundCloud, Google Music and YouTube Music).
 
 <div>
     <img src="http://moreinfo.thebigboss.org/moreinfo/nextup1.jpg" width="200">
