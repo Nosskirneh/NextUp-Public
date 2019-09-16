@@ -41,12 +41,12 @@ Seems like you’re using the iOS 11 version of NextUp on iOS 12. Please install
 Seems like you installed an old version of NextUp from a “piracy” repo that is incompatible with iOS 12.2 and above. Please add https://henrikssonbrothers.com/cydia/repo and install the latest version.
 
 #### My device crashes and I checked all the above:
-Okay, please use iCleaner Pro to disable all your other tweaks. Does it work? If it does, enable chunks of 1/2 until it crashes again to find out which tweak is incompatible. Still not working? Please email me or open an issue here. Attach a crash log (through CrashReporter).
+Okay, please use iCleaner Pro to disable all your other tweaks. Does it work? If it does, enable 1/2 and try again. Issue becomes present again? Disable 1/2 of the 1/2 you just enabled. Rinse and repeat until you find which tweak is in incompatible. Still not working? Please email me or open an issue here. Attach a crash log (through CrashReporter).
 
 #### NextUp isn’t working, nothing appears.
 This could be caused by a few reasons:
-    * make sure you’re running 1.0.7 of RocketBootstrap from tpetrich repo. Sometimes RBS stops working. Try reinstalling and respringing.
-    * Make sure you’re not having a code injection blocker such as UnSub enabled for the media app.
+* make sure you’re running 1.0.7 of RocketBootstrap from tpetrich repo. Sometimes RBS stops working. Try reinstalling it and respring.
+* Make sure you’re not having a code injection blocker such as UnSub enabled for the media app.
 
 
 ### Report an issue
@@ -56,6 +56,7 @@ Please include the following when reporting a bug:
 1. What app or process isn't working.
 2. App version (if applicable) and iOS version.
 3. How to reproduce (if not obvious steps).
+4. Crash report if such exists.
 
 Also please make sure the bug isn't caused by another tweak (disable all other just to make sure).
 
