@@ -1,6 +1,6 @@
 # NextUp-Public
 
-[NextUp](https://henrikssonbrothers.com/cydia/repo/depictions/?p=se.nosskirneh.nextup2) is a nice little enhancement that allows you to glimpse ahead of the current track and even change it if you don't like the what the future had in store for you.
+NextUp ([iOS 12](https://henrikssonbrothers.com/cydia/repo/depictions/?p=se.nosskirneh.nextup2) and [iOS 11](http://cydia.saurik.com/package/se.nosskirneh.nextup/) versions) is a nice little enhancement that allows you to glimpse ahead of the current track and even change it if you don't like the what the future had in store for you.
 
 Don’t like a song? Skip it before it has even started playing.
 
