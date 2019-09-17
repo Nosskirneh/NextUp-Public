@@ -47,7 +47,7 @@ Okay, please use iCleaner Pro to disable all your other tweaks. Does it work? If
 This could be caused by a few reasons:
 * Make sure you’re running 1.0.7 of RocketBootstrap from [Ryan Petrich's repo](https://rpetri.ch/repo/). Sometimes RocketBootstrap randomly stops working and won't start again. Try reinstalling it and respring.
 * Make sure you’re not having a code injection blocker, such as UnSub or Liberty Lite, enabled for the media app.
-* If the two bullet points above doesn't work for you, it might be a conflicting tweak. Use the method from the FAQ question above to solve that.
+* If the two bullet points above do not work for you, it might be a conflicting tweak. Use the method from the FAQ question above to solve that.
 
 
 ### Report an issue
