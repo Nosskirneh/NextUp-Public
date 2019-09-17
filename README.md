@@ -46,7 +46,8 @@ Okay, please use iCleaner Pro to disable all your other tweaks. Does it work? If
 #### NextUp isn’t working, nothing appears.
 This could be caused by a few reasons:
 * make sure you’re running 1.0.7 of RocketBootstrap from tpetrich repo. Sometimes RBS stops working. Try reinstalling it and respring.
-* Make sure you’re not having a code injection blocker such as UnSub enabled for the media app.
+* Make sure you’re not having a code injection blocker, such as UnSub or Liberty Lite, enabled for the media app.
+* If the two bullet points above doesn't work for you, it might be a conflicting tweak. Use the method from the FAQ question above to solve that.
 
 
 ### Report an issue
