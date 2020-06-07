@@ -27,25 +27,16 @@ Do you know a language that NextUp isn't translated to yet and want to help? Fir
 
 Down below I’ll be listing a few frequently support emails I get. I spend a lot of time answering support emails. I would appreciate very much if you could read through this short list before emailing me. That way I can spend more time actually improving my tweaks.
 
-#### It complains about RocketBootstrap > 1.0.6, please help!
-Add [Ryan Petrich's repo](https://rpetri.ch/repo/) and install the latest version of RBS which is compatible with iOS 12.
-
 #### My license won’t activate, please help!
 * Make sure you’re pressing the correct choice when it asks if you bought NextUp for iOS 11.
 * Make sure you spelled your email correctly (sometimes users have several emails – even if you think you know which one PayPal used, verify it).
 
-#### My device crashes when I begin playing music, please help!
-Seems like you’re using the iOS 11 version of NextUp on iOS 12. Please install the correct version from https://henrikssonbrothers.com/cydia/repo.
-
-#### My device crashes when entering the lockscreen playing music, please help!
-Seems like you installed an old version of NextUp from a “piracy” repo that is incompatible with iOS 12.2 and above. Please add https://henrikssonbrothers.com/cydia/repo and install the latest version.
-
-#### My device crashes and I checked all the above:
+#### My device crashes after installing NextUp:
 Okay, please use iCleaner Pro to disable all your other tweaks. Does it work? If it does, enable 1/2 and try again. Issue becomes present again? Disable 1/2 of the 1/2 you just enabled. Rinse and repeat until you find which tweak is in incompatible. Still not working? Please email me or open an issue here. Attach a crash log (through CrashReporter).
 
 #### NextUp isn’t working, nothing appears.
 This could be caused by a few reasons:
-* Make sure you’re running 1.0.7 of RocketBootstrap from [Ryan Petrich's repo](https://rpetri.ch/repo/). Sometimes RocketBootstrap randomly stops working and won't start again. Try reinstalling it and respring.
+* Make sure you’re running 1.0.7 of RocketBootstrap from BigBoss. Sometimes RocketBootstrap randomly stops working and won't start again. Try reinstalling it and respring.
 * Make sure you’re not having a code injection blocker, such as UnSub or Liberty Lite, enabled for the media app.
 * If the two bullet points above do not work for you, it might be a conflicting tweak. Use the method from the FAQ question above to solve that.
 
