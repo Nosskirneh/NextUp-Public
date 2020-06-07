@@ -1,12 +1,12 @@
 # NextUp-Public
 
-NextUp ([iOS 12](https://henrikssonbrothers.com/cydia/repo/depictions/?p=se.nosskirneh.nextup2) and [iOS 11](http://cydia.saurik.com/package/se.nosskirneh.nextup/) versions) is a nice little enhancement that allows you to glimpse ahead of the current track and even change it if you don't like the what the future had in store for you.
+NextUp ([iOS 12 & 13](https://henrikssonbrothers.com/cydia/repo/depictions/?p=se.nosskirneh.nextup2) and [iOS 11](http://cydia.saurik.com/package/se.nosskirneh.nextup/) versions) is a nice little enhancement that allows you to glimpse ahead of the current track and even change it if you don't like the what the future had in store for you.
 
 Don’t like a song? Skip it before it has even started playing.
 
 It’s especially useful for those of you using free accounts with limited number of skips.
 
-It has support for a lot of media apps (the ones currently supported: VOX, Musi, Music, TIDAL, Spotify, Deezer, Napster, Anghami, JioSaavn, Podcasts, SoundCloud, Google Music and YouTube Music).
+It has support for a lot of media apps (the ones currently supported: VOX, Musi, Music, TIDAL, Spotify, Deezer, Napster, Anghami, JioSaavn, Podcasts, AudioMack, SoundCloud, Google Music and YouTube Music).
 
 <div>
     <img src="http://moreinfo.thebigboss.org/moreinfo/nextup1.jpg" width="200">
@@ -19,7 +19,7 @@ It has support for a lot of media apps (the ones currently supported: VOX, Musi,
 
 It was a requested feature to have translations of the "Next Up" label.
 
-Do you know a language that NextUp isn't translated to yet and want to help? First make sure that the language is not already translated and uploaded [here](https://github.com/Nosskirneh/NextUp-Public/blob/master/translations). Refer to the [English translation]([API.md](https://github.com/Nosskirneh/NextUp-Public/blob/master/translations/en.lproj)) within this repo. Copy its folder, change its name to your [country's code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) (see column 639-1) and translate the `Localizable.strings` file. Zip it and send me the zip somehow (email visible from Cydia for example) or open a pull request to this repo.
+Do you know a language that NextUp isn't translated to yet and want to help? First make sure that the language is not already translated and uploaded [here](https://github.com/Nosskirneh/NextUp-Public/blob/master/translations). Refer to the [English translation]([API.md](https://github.com/Nosskirneh/NextUp-Public/blob/master/translations/en.lproj)) within this repo. Copy its folder, change its name to your [country's code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) (see column 639-1) and translate the `Localizable.strings` file. Zip it and send me the zip somehow (email adress can be found from within Cydia for example) or open a pull request to this repo.
 
 ## Issues
 
