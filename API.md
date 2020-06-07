@@ -1,4 +1,4 @@
-# NextUp API
+# NextUp's API
 *Requires NextUp version 1.0.1 or later.*
 
 Prerequisites: [RocketBootstrap](https://github.com/rpetrich/RocketBootstrap/tree/master) and [AppSupport](http://developer.limneos.net/?ios=11.0&framework=AppSupport.framework&header=CPDistributedMessagingCenter.h) headers.
