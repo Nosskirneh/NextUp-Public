@@ -96,7 +96,7 @@ The `metadata` dictionary is built in the following way:
 | `title`    | `NSString` | The text on the first label.  |
 | `subtitle` | `NSString` | The text on the second label. |
 | `skipable` | `NSNumber` | If the next track is skipable or not (optional and defaults to `@YES`). |
-| `artwork`  | `NSData`   | The data of the `UIImage` (use `UIImagePNGRepresentation`). The artwork image should be 60x60 (note that some apps handles this differently with some scale parameter for iPhone + devices). |
+| `artwork`  | `NSData`   | The data of the `UIImage` (use `UIImagePNGRepresentation`). The artwork image should be 60x60 (note that some apps handle this differently with some scale parameter for iPhone + devices). |
 
 If there is no next track available (end of queue for example), simply send a next track message without a metadata dictionary.
 
@@ -106,6 +106,8 @@ NextUp will send notifications (using `CFNotificationCenter`) in two scenarios:
 2. When the skip button was pressed.
 
 Refer to the code down below. A tip: either find a `sharedInstance` to the queue manager for the `skipNext` and `manualUpdate` methods down below to use or hook the queue manager's init method and subscribe to a custom `NSNotification` event.
+
+One could also register to notifications using `notify_register()` from `<notify.h>`.
 
 ```
 #define notificationArguments CFNotificationCenterRef center, void *observer, CFStringRef name, const void *object, CFDictionaryRef userInfo
