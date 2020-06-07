@@ -3,7 +3,7 @@
 
 Prerequisites: [RocketBootstrap](https://github.com/rpetrich/RocketBootstrap/tree/master) and [AppSupport](http://developer.limneos.net/?ios=11.0&framework=AppSupport.framework&header=CPDistributedMessagingCenter.h) headers.
 
-If you’re running iOS 12, make sure to have RocketBootstrap version 1.0.7~beta1 or higher from [Ryan Petrich’s repo](http://rpetri.ch/repo). It will not work with the version currently available on BigBoss!
+If you’re running iOS 12 or above, make sure to have RocketBootstrap version 1.0.7 or higher.
 
 Other developers can easily support their favorite media clients. You'll need to find the class that manages the queue and hook methods that are called when the next track is changed. Once you have that, you'll need to find the class that fetches images and fetch the next track's image using it. This method is most usually a callback method that returns an `UIImage`.
 
@@ -17,8 +17,8 @@ TweakName_PRIVATE_FRAMEWORKS = AppSupport
 ## Communication
 There are two different messages transferred to NextUp:
 
-|               name               |        description        |
-|----------------------------------|---------------------------|
+|               name               |                     description                     |
+|----------------------------------|-----------------------------------------------------|
 `se.nosskirneh.nextup/registerApp` | Registers the app to be able to send data to NextUp |
 `se.nosskirneh.nextup/nextTrack`   | Sends the next available track                      |
 
