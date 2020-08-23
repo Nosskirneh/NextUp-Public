@@ -95,7 +95,7 @@ The `metadata` dictionary is built in the following way:
 |------------|------------|-------------------------------|
 | `title`    | `NSString` | The text on the first label.  |
 | `subtitle` | `NSString` | The text on the second label. |
-| `skipable` | `NSNumber` | If the next track is skipable or not (optional and defaults to `@YES`). |
+| `skippable`| `NSNumber` | If the next track is skippable or not (optional and defaults to `@YES`). |
 | `artwork`  | `NSData`   | The data of the `UIImage` (use `UIImagePNGRepresentation`). The artwork image should be 60x60 (note that some apps handle this differently with some scale parameter for iPhone + devices). |
 
 If there is no next track available (end of queue for example), simply send a next track message without a metadata dictionary.
